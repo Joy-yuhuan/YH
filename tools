@@ -16,9 +16,9 @@ green "2.一键cloudflare内网穿透"
 
 read -p "请输入序号: " yn
  if [[ $yn == "1" ]];then
-  bash <(curl -sSL 'https://raw.codehub.cn/p/113/d/cf/git/raw/master/docker?token=gfT4UFkGyUrVihy5XvrGWflo2RrZ4czYXvFsBHDpXM')
+  bash <(curl -sSL 'https://raw.githubusercontent.com/Joy-yuhuan/YH/main/docker')
  elif [[ $yn == "2" ]];then
-  bash <(curl -sSL 'https://raw.codehub.cn/p/113/d/cf/git/raw/master/Tunnel?token=6xyBsWaBP6jaLkOMjOCNJyASfoOL3SwrEvmPITxPfe')
+  bash <(curl -sSL 'https://raw.githubusercontent.com/Joy-yuhuan/YH/main/Tunnel')
 else
    green "输入有误，脚本退出
 如有需要请重新运行"
